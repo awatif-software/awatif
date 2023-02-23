@@ -88,3 +88,11 @@ interface SteelDesignResult extends BaseResult {
   ratio: number;
 }
 export type DesignResult = SteelDesignResult;
+
+// export public classes and functions
+export { Viewer } from "./ui/viewer";
+export { Configurator } from "./ui/configurator";
+export { modeling } from "./algorithms/modeling";
+export { deforming } from "./algorithms/deforming";
+export { analyzing } from "./algorithms/analyzing";
+export { designing } from "./algorithms/designing";
